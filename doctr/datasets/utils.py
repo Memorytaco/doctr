@@ -84,7 +84,7 @@ def encode_string(
     except ValueError:
         raise ValueError(
             f"some characters cannot be found in 'vocab'. \
-                         Please check the input string {input_string} and the vocabulary {vocab}"
+                         Please check the input string <|{input_string}|> and the vocabulary"
         )
 
 

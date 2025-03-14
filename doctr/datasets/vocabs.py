@@ -90,3 +90,6 @@ VOCABS["multilingual"] = "".join(
         + "§"
     )
 )
+
+with open("vocab.txt") as file:
+    VOCABS["chinese_sc"] = file.read()
