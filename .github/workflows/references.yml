@@ -16,9 +16,9 @@ jobs:
         python: ["3.10"]
         framework: [tensorflow, pytorch]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
           architecture: x64
@@ -68,9 +68,9 @@ jobs:
         python: ["3.10"]
         framework: [tensorflow, pytorch]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
           architecture: x64
@@ -134,9 +134,9 @@ jobs:
         python: ["3.10"]
         framework: [tensorflow, pytorch]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
           architecture: x64
@@ -189,9 +189,9 @@ jobs:
         python: ["3.10"]
         framework: [tensorflow, pytorch]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
           architecture: x64
@@ -233,9 +233,9 @@ jobs:
         python: ["3.10"]
         framework: [tensorflow, pytorch]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
           architecture: x64
@@ -277,9 +277,9 @@ jobs:
         python: ["3.10"]
         framework: [tensorflow, pytorch]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
           architecture: x64
@@ -332,9 +332,9 @@ jobs:
         python: ["3.10"]
         framework: [tensorflow, pytorch]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
           architecture: x64
@@ -378,9 +378,9 @@ jobs:
         python: ["3.10"]
         framework: [tensorflow, pytorch]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: ${{ matrix.python }}
           architecture: x64
